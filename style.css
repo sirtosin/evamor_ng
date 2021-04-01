@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.bg{
+    min-height: 100px;
+}
+
+.nav-wrapper .container{
+    position: relative;
+    top: .8em;
+}
+
+section .pic{
+    position: relative;
+    top: 2em;
+}
+
+.nav-menu .nav-wrapper .container .right .waves-effect:hover,
+.sidenav .waves-effect:hover, .btn:hover{
+    transform: scale(1.1);
+}
+
+.btn{
+    margin: 10px;
+}
+
+footer{
+    height: 70px;
+    color: white;
+    padding: 30px;
+}
